@@ -1,7 +1,7 @@
 # Bieel-Manjon.pt2
 # Instal·lació d'OwnCloud
 
-## Instal·lació de la versió 7.4 de PHP a Ubnutu 24.04
+## Instal·lació (versió 7.4) de PHP a Ubnutu 24.04
 
 Per a instal·lar OwnCloud necessitem la versió 7.4 de PHP.
 
