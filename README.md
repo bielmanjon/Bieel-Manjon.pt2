@@ -1,3 +1,4 @@
+
 # Bieel-Manjon.pt2
 # Instal·lació d'OwnCloud
 
@@ -363,3 +364,6 @@ Ara pasarem a configurar el nostre [OwnCloud]
 <p>I aquest arxiu serveix com un document, pots escriure dins.
 <p>També pots pujar un arxiu desde la maquina.
 <p>I dins de l'arxiu com en les carpetes, també pots donar permisos a usuaris d'editar els arxius o pujar mes arxius.
+
+
+# Gràcies per confiar en el meu tutorial
