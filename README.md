@@ -303,11 +303,11 @@ Ara pasarem a configurar el nostre [OwnCloud]
 <p>Si has fet tot els pasos d'abans bé ahuries d'estar aqui
 
   
-##BORRAR CAMBIAR CAPTURAS   
-##BORRAR CAMBIAR CAPTURAS   
-##BORRAR CAMBIAR CAPTURAS   
-##BORRAR CAMBIAR CAPTURAS   
-##BORRAR CAMBIAR CAPTURAS   
+## BORRAR CAMBIAR CAPTURAS   
+## BORRAR CAMBIAR CAPTURAS   
+## BORRAR CAMBIAR CAPTURAS   
+## BORRAR CAMBIAR CAPTURAS   
+## BORRAR CAMBIAR CAPTURAS   
 
 
 ![Captura desde 2024-11-12 08-36-23](https://github.com/user-attachments/assets/c679aa8f-b595-490b-bd02-a94b38cbba67)
