@@ -283,7 +283,7 @@ sudo chown -R usuario:www-data .
 
 Entro a http://localhost en el teu navegador web, i configura la teva Cloud.
 
-# Si heu fet bé tots els passos, us ficarà al OwnCloud, i us demanarà crear-vos un usuari d'admin i la base de dades que has configurat.
+#### Si heu fet bé tots els passos, us ficarà al OwnCloud, i us demanarà crear-vos un usuari d'admin i la base de dades que has configurat.
 
 La  informació:
 
