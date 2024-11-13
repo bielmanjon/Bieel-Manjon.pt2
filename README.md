@@ -52,7 +52,7 @@ sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.
 
 ```
 
-Amb aquesta comanda seleccionem la versió de PHP la 7.4.
+Amb aquesta seleccionem la versió de PHP la 7.4.
 
 ``` bash
 
