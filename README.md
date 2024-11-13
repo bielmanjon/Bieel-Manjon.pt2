@@ -360,6 +360,6 @@ Ara pasarem a configurar el nostre [OwnCloud]
 ![Captura desde 2024-11-13 10-55-48](https://github.com/user-attachments/assets/50066e7c-f264-4693-a803-d67ddfa94a0b)
 
   
-<p>I aquest arxiu serveix com un document, pots escriure el que vulguis dins.
-<p>També pots pujar un arxiu desde la teva propia maquina.
+<p>I aquest arxiu serveix com un document, pots escriure dins.
+<p>També pots pujar un arxiu desde la maquina.
 <p>I dins de l'arxiu com en les carpetes, també pots donar permisos a usuaris d'editar els arxius o pujar mes arxius.
