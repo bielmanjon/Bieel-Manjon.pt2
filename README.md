@@ -5,9 +5,9 @@
 
 Per a instal·lar OwnCloud necessitem la versió 7.4 de PHP.
 
-Les comandes següents són les necessàries per a actualitzar el PHP.
+Aquestes son les comandes per a actualitzar el PHP.
 
-Amb aquesta comanda instal·lem els requisits de PPA (arxius de paquets personals).
+Amb la comanda instal·lem els requisits de PPA.
 
 ```bash
 
@@ -15,7 +15,7 @@ sudo apt install software-properties-common -y
 
 ```
 
-Instal·lem les eines necessàries per a poder treballar amb PPA.
+Instal·lem lo necessàri per a poder treballar amb PPA.
 
 ```bash
 
@@ -23,7 +23,7 @@ LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
 
 ```
 
-Actualitzem
+Actualitzem tot
 
 ``` bash
 
@@ -31,7 +31,7 @@ sudo apt update
 
 ```
 
-Amb aquestes 3 comandes instal·lem les llibreries de PHP de la versió 7.4.
+Amb aquestes 3 comandes instal·lem les llibreries de PHP 
 
 ``` bash
 
@@ -51,7 +51,7 @@ sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.
 
 ```
 
-Amb aquesta comanda seleccionem la versió de PHP que necessitem, en aquest cas necessitem la 7.4.
+Amb aquesta comanda seleccionem la versió de PHP la 7.4.
 
 ``` bash
 
@@ -59,7 +59,7 @@ sudo update-alternatives --config phpmmm
 
 ```
 
-Ara activem els mòduls que necessitem d'Apache2 perquè funcioni.
+Ara activem els mòduls necessaris d'Apache2 perquè funcioni.
 
 ``` bash
 
@@ -73,7 +73,7 @@ sudo a2enconf php7.4-fpm
 
 ```
 
-Y per finalitzar amb l'instal·lació de la versió 7.4 de PHP, reiniciem l'Apache2.
+Y per finalitzar amb l'instal·lació de la versió 7.4 de PHP, reiniciarem l'Apache2.
 
 ``` bash
 
@@ -83,11 +83,11 @@ sudo service apache2 restart
 
 ## Comandes per l'instal·lació i configuració de OwnCloud
 
-Per a instal·lar i configurar OwnCloud, farem ús d'apache2, al instal·lar Apache2 es crearà una carpeta dins de /var/www/html, on treballarem.
+Per a instal·lar i configurar OwnCloud, utilitzarem d'apache2, al instal·lar Apache2 es crearà una carpeta dins de /var/www/html, on treballarem.
 
 ## Comandes per l'instal·lació d'Apache2 i mysql, i llibreries de PHP
 
-Actualitzem la nostra màquina.
+Actualitzem la màquina.
 
 ``` bash
 
@@ -95,7 +95,7 @@ sudo apt update
 
 ```
 
-Aquesta no és obligatòria posar-la, però és millor, a més que triga molt en processar aquesta comanda.
+Aixo NO és obligatòri posar-ho , però és millor, a més que triga molt en processar la comanda.
 
 ``` bash
 
@@ -111,7 +111,7 @@ sudo apt install -y apache2
 
 ```
 
-Instal·lem la base de dades de mysql
+Instal·lem la base de dades mysql
 
 ``` bash
 
@@ -119,7 +119,7 @@ sudo apt install -y apache2
 
 ```
 
-Instal·lem algunes llibreries PHP, que aquest és el llenguatge de totes les aplicacions.
+Instal·lem llibreries PHP, que aquest és el llenguatge de les aplicacions.
 
 ``` bash
 
@@ -133,7 +133,7 @@ sudo apt install -y php-fpm php-common php-mbstring php-xmlrpc php-soap php-gd p
 
 ```
 
-I per finalitzar reiniciem el servidor d'Apache2
+I per finalitzar reiniciem el servidor d'Apache2 amb aquesta comanda
 
 ``` bash
 
@@ -143,9 +143,9 @@ sudo systemctl restart apache2
 
 ## Configurem la base de dades de mysql
 
-### Entrem a la consola de dades de mysql per posar totes aquestes comandes.
+### Entrem a la consola de dades de mysql.
 
-Des d'un terminal on siguem root posem aquesta comanda per entrar a la terminal de mysql
+Des d'un terminal posem aquesta comanda per entrar a la terminal de mysql
 
 ``` bash
 
@@ -156,7 +156,7 @@ sudo mysql
 
 ### Creem una base de dades.
 
-Dins el terminal de mysql creem una base de dades, ja que a l'estar creant aquesta nova base de dades, li posem el nom de bbdd
+Dins de mysql creem una base de dades,i li posem el nom de bbdd
 
 ``` bash
 
@@ -165,9 +165,9 @@ CREATE DATABASE bbdd;
 ```
 ![Captura desde 2024-11-07 14-06-20](https://github.com/user-attachments/assets/ab8def8a-e326-4a43-b230-16809fb4167f)
 
-### Creació del nostre usuari
+### Creació del  usuari
 
-Ara hem de crear un nou usuari, amb un usuari i una contrasenya, a més que utilitzarem la IP de localhost
+Ara crearem un nou usuari, a més que utilitzarem la IP de localhost
 
 ``` bash
 
@@ -176,7 +176,7 @@ CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ```
 ![Captura desde 2024-11-07 14-06-57](https://github.com/user-attachments/assets/d1611068-eeaf-4d1d-b109-e6531834f477)
 
-### Per finalitzar li donem privilegis al nostre usuari
+### Li donem privilegis al nostre usuari abans de finalitzar
 
 ``` bash
 
@@ -193,7 +193,7 @@ exit
 
 ```
 
-### Ens assegurem que hem fet tots els passos bé.
+### TOot els pasos estan bé?.
 
 Amb el terminal normal sense privilegis provem a connectar-nos a mysql i introduïm la nostra contrasenya de mysql.
 
@@ -225,7 +225,7 @@ cd /var/www/html
 
 ```
 
-En aquest directori descomprimim el .zip que hem baixat.
+Descomprimim el .zip que hem baixat.
 
 ``` bash
 
@@ -233,7 +233,7 @@ sudo unzip owncloud-complete-20240724.zip
 
 ```
 
-Copiem els fitxers a la carpeta /var/www/html, i canviem els signes d'interrogant (??) pel nom del directori on s'ha descomprimit l'arxiu d'abans.
+Copiem els fitxers a la carpeta /var/www/html, i canviem els signes d'interrogant (?) pel nom del directori on s'ha descomprimit l'arxiu d'abans.
 
 ``` bash
 
@@ -257,7 +257,7 @@ sudo rm -rf /var/www/html/index.html
 
 ```
 
-## Permisos a les nostres aplicacions web.
+## Permisos a les aplicacions web.
 
 Al tenir descomprimit el fitxer a /var/www/html donem permisos a aquest mateix directori amb les següents comandes.
 
@@ -281,11 +281,11 @@ sudo chown -R usuario:www-data .
 
 ## Veure si podem accedir al navegador.
 
-Entreu a http://localhost en el teu navegador web, i configura la teva Cloud.
+Entro a http://localhost en el teu navegador web, i configura la teva Cloud.
 
-Si heu fet bé tots els passos, us ficarà al OwnCloud, i us demanarà crear-vos un usuari d'admin i la base de dades que has configurat.
+# Si heu fet bé tots els passos, us ficarà al OwnCloud, i us demanarà crear-vos un usuari d'admin i la base de dades que has configurat.
 
-La teva informació seria:
+La  informació:
 
 - Usuari: usuario
 
@@ -295,7 +295,7 @@ La teva informació seria:
 
 - Domini: localhost
 
-I amb això ja hauries d'haver acabat de configurar i instal·lar la teva base de dades, i ja podries usar perfectament la teva Cloud.
+I amb això ja esta configurat i instal·lat la base de dades.
 
 # Configuració d'OwnCloud
 Ara pasarem a configurar el nostre [OwnCloud]
