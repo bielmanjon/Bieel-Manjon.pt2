@@ -301,7 +301,7 @@ I amb això ja esta configurat i instal·lat la base de dades.
 Ara pasarem a configurar el nostre [OwnCloud]
 
 <p>Si has fet tot els pasos d'abans bé ahuries d'estar aqui
- 
+
 
 ![Captura desde 2024-11-13 10-43-07](https://github.com/user-attachments/assets/4570c3cb-9d06-4095-b5b2-033612c7c06e)
 
